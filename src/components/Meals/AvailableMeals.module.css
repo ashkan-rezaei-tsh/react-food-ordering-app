@@ -11,6 +11,20 @@
     padding: 0;
 }
 
+.mealsLoading {
+    text-align: center;
+    color: white;
+}
+
+.error {
+    margin: 1rem;
+    text-align: center;
+    background-color: rgba(226, 14, 14, 0.1);
+    border-radius: 0.75rem;
+    padding: 1rem;
+    color: rgb(201, 35, 13);
+}
+
 @keyframes meals-appear {
     from {
         opacity: 0;
